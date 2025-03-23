@@ -9,6 +9,6 @@
 @tailwind utilities;
 
 body {
-    @apply bg-darkSagegreen;
+    @apply bg-deepForestGreen;
   /* font-family: 'Roboto', sans-serif; */
 }

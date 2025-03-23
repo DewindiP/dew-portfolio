@@ -20,6 +20,7 @@ export default {
       warmOliveTint: "#D4E09B",
       sageTintedOlive: "#BFD8B3",
       mutedGold: "#B5A261",
+      richMetallicGold: "#D4AF37",
       warmBeige: "#E5D7B7",
       offWhite: "#F8F8F2",
       deepCharcoal: "#2F2F2F",
@@ -51,6 +52,8 @@ export default {
     extend: {
       boxShadow: {
         mutedGold: "0 0 10px 0 rgba(181, 162, 97, 0.5)",
+        mutedGoldMediumShadow: "10px 10px 200px 150px rgba(181, 162, 97, 0.5)",
+        deepForestGreenMediumShadow: "10px 10px 200px 150px rgba(112, 130, 56, 0.5)",
       }
     },
     fontFamily: {
