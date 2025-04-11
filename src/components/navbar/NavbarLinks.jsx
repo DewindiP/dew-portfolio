@@ -4,6 +4,7 @@ const links = [
   { link: "About Me", section: "about" },
   { link: "Skills", section: "skills" },
   { link: "Projects", section: "projects" },
+  { link: "Certificates", section: "certificates" },
   { link: "Contact", section: "contact" },
 ];
 
@@ -21,7 +22,7 @@ const NavbarLinks = () => {
         );
       })}
     </ul>
-  )
-}
+  );
+};
 
-export default NavbarLinks
+export default NavbarLinks;

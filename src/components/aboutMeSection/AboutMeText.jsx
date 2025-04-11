@@ -10,21 +10,22 @@ const AboutMeText = () => {
       <div className="flex flex-col md:flex-row gap-10 w-full max-w-5xl">
         
         {/* About Me Section */}
-        <div className="bg-deepForestGreen p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 text-ivory w-full md:w-1/2">
-          <p className="font-light text-justify">
-            Hi! I’m Pramodi Dewindi, a passionate Frontend Developer & UI/UX Enthusiast with a keen eye for creating engaging, responsive, and visually appealing web and mobile applications. 
-            As an undergraduate at the <strong>Institute of Technology, University of Moratuwa</strong>, I specialize in crafting seamless user interfaces using <strong>React.js, Flutter, JavaScript, HTML, and CSS</strong>.
-            <br />
-            <br />
-            I love turning complex ideas into intuitive and interactive designs, ensuring a smooth user experience. While my primary focus is on frontend development, I have working knowledge of backend technologies like <strong>Node.js and MySQL</strong>, allowing me to build well-integrated and scalable applications.
-            <br />
-            <br />
-            I’m excited to collaborate and bring ideas to life!
+        <div className="bg-richBlackGreen p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 text-ivory w-full md:w-1/2">
+          <p className="font-normal text-sm text-justify sm:text-justify mb-4">
+          Hi! I’m Pramodi Dewindi 
+          <br />
+          A passionate Frontend Developer & UI/UX Enthusiast. I specialize in crafting responsive, user-friendly web and mobile apps using React.js, Flutter, JavaScript, and more. 
+          <br />
+          With a strong eye for design and a knack for clean code, I love turning ideas into smooth, engaging experiences. 
+          I’m excited to collaborate and bring ideas to life!
+          <br />
+          Let’s build something awesome together!
+           
           </p>
         </div>
 
         {/* Education Section */}
-        <div className="bg-deepForestGreen p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 text-ivory w-full md:w-1/2">
+        <div className="bg-richBlackGreen p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 text-ivory w-full md:w-1/2">
           <p className="text-2xl text-mutedGold text-center mb-2">Education</p>
           <div className="flex items-center">
             <FaUniversity className="text-lightAvacadoGreen text-4xl mr-4" />
