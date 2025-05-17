@@ -82,14 +82,25 @@ const skills = [
         skill:"Figma",
         icon: FaFigma,
     },
+    // {
+    //     skill:"WordPress",
+    //     icon: FaFigma,
+    // },
 ];
+
+// const softSkills = [
+//     { skill: "Teamwork", icon: RiTeamFill },
+//     { skill: "Communication", icon: MdOutlineCommunication },
+//     { skill: "Problem Solving", icon: FaLightbulb },
+//     { skill: "Collaboration", icon: FaHandsHelping },
+//   ];
 
 
 
 const AllSkills = () => {
     return (
       <div className="w-full flex justify-center">
-        <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4 p-2">
+        <div className="grid grid-cols-2 sm:grid-cols-6 md:grid-cols-6 lg:grid-cols-6 xl:grid-cols-6 gap-4 p-2">
           {skills.map((item, index) => (
             <SingleSkill key={index} text={item.skill} imgSvg={<item.icon className="w-14 h-14 text-gold" />} />
           ))}

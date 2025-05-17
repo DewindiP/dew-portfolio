@@ -1,26 +1,28 @@
-import React from 'react'
+import React from 'react';
+import { Link as RouterLink } from "react-router-dom";
 
 const links = [
-  { link: "About Me", section: "about" },
-  { link: "Skills", section: "skills" },
-  { link: "Projects", section: "projects" },
-  { link: "Certificates", section: "certificates" },
-  { link: "Contact", section: "contact" },
+  { label: "Home", path: "/" },
+  { label: "About Me", path: "/about" },
+  { label: "Skills", path: "/skills" },
+  { label: "Projects", path: "/projects" },
+  { label: "Contact", path: "/contact" }, 
 ];
 
 const NavbarLinks = () => {
   return (
-    <ul className="flex gap-6 text-ivory fond-semibold text-center lg:flex-row sm:flex-col lg:relative sm:absolute sm:top-[120%] left-[50%] -translate-x-[50%] lg:text=md sm:text-xl sm:bg-deepForestGreen/30 backdrop-blur-3xl lg:bg-deepForestGreen sm:w-full py-4">
-      {links.map((link, index) => {
-        return (
-          <li key={index} className="group">
-            <a href="#" className="cursor-pointer text-ivory hover:text-mutedGold transition-all duration-500">
-              {link.link}
-            </a>
-            <div className="mx-auto bg-mutedGold w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
-          </li>
-        );
-      })}
+    <ul className="flex gap-6 text-ivory font-semibold text-center lg:flex-row sm:flex-col lg:relative sm:absolute sm:top-[120%] left-[50%] -translate-x-[50%] lg:text-md sm:text-xl sm:bg-deepForestGreen/30 backdrop-blur-3xl lg:bg-deepForestGreen sm:w-full py-4">
+      {links.map((link, index) => (
+        <li key={index} className="group">
+          <RouterLink
+            to={link.path}
+            className="cursor-pointer text-ivory hover:text-mutedGold transition-all duration-500"
+          >
+            {link.label}
+          </RouterLink>
+          <div className="mx-auto bg-mutedGold w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
+        </li>
+      ))}
     </ul>
   );
 };
