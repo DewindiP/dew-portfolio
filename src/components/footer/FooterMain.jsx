@@ -11,7 +11,7 @@ const links = [
 
 const FooterMain = () => {
   return (
-    <div clssName="px-4">
+    <div className="px-4">
         <div className="w-full h-[1px] bg-richMetallicGold mt-24"></div>
         <div className="md:flex sm:hidden justify-between mt-4 max-w-[1200px] mx-auto">
             <p className="text-xl text-mutedGold">Pramodi Dewindi</p>

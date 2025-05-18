@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const AboutMeText = () => {
   return (
-    <div className="flex flex-col items-center text-center md:text-left">
+    <div className="flex flex-col md:flex-row gap-6 w-full max-w-7xl">
       <h2 className="text-6xl text-mutedGold mb-10">About Me</h2>
 
       {/* Three Column Layout */}
@@ -44,7 +44,6 @@ const AboutMeText = () => {
           </div>
         </div>
 
-        {/* Certifications Section */}
         {/* Certifications Section */}
         <div className="bg-richBlackGreen p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 text-ivory w-full md:w-1/2">
           <p className="text-2xl text-mutedGold text-center mb-2">

@@ -95,6 +95,15 @@ const skills = [
 //     { skill: "Collaboration", icon: FaHandsHelping },
 //   ];
 
+//   const softSkillVariants = {
+//   hidden: { opacity: 0, scale: 0.8, y: 40 },
+//   visible: (i) => ({
+//     opacity: 1,
+//     scale: 1,
+//     y: 0,
+//     transition: { delay: i * 0.15, type: "spring", stiffness: 100 }
+//   }),
+// };
 
 
 const AllSkills = () => {
@@ -105,6 +114,7 @@ const AllSkills = () => {
             <SingleSkill key={index} text={item.skill} imgSvg={<item.icon className="w-14 h-14 text-gold" />} />
           ))}
         </div>
+        
       </div>
     );};
   
