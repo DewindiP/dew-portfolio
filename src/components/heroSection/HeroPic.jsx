@@ -5,7 +5,7 @@ import { LiaCircleSolid } from "react-icons/lia";
 
 const Heropic = () => {
   return (
-    <div className="h-full flex items-center justify-center">
+    <div className="h-full flex items-center justify-center  mt-[0px]">
         <img src="../../images/myprofile.png" 
          alt="Pramodi Dewindi"
          className="max-h-[350px] w-auto"

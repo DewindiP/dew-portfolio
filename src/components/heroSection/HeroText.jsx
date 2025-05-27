@@ -20,7 +20,7 @@ const HeroText = () => {
   }, []);
 
   return (
-    <div className="flex flex-col gap-4 h-full justify-center md:text-left sm:text-center">
+    <div className="flex flex-col gap-4 h-full justify-center md:text-left sm:text-center  mt-[0px]">
       <h3 className="text-4xl font-special font-light text-warmOliveTint">
         Hi There,
       </h3>
