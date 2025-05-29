@@ -42,9 +42,13 @@ const HeroText = () => {
         developing responsive websites and web applications.
       </p>
       <div className="w-full flex justify-start">
-        <button className="border border-richMetallicGold rounded-3xl py-2 px-6 text-lg mt-6 hover:bg-warmOliveTint transition-all duration-500 cursor-pointer text-softSage hover:text-deepForestGreen hover:font-semibold">
+        <a
+          href="./images/files/Pramodi Dewindi PA.pdf" 
+          download
+          className="border border-richMetallicGold rounded-3xl py-2 px-6 text-lg mt-6 hover:bg-warmOliveTint transition-all duration-500 cursor-pointer text-softSage hover:text-deepForestGreen hover:font-semibold inline-block"
+        >
           Download CV
-        </button>
+        </a>
       </div>
     </div>
   );
