@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroText from './HeroText';
-import Heropic from './Heropic';
+import Heropic from './HeroPic';
 import HeroGradient from './HeroGradient';
 
 const HeroMain = () => {
