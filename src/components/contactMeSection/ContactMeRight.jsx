@@ -2,6 +2,8 @@ import React from 'react';
 import { MdContactMail } from "react-icons/md";
 import ContactInfo from './ContactInfo';
 import ContactSocial from './ContactSocial';
+import { motion } from "framer-motion";
+import { fadeIn } from "../../framerMotion/variants";
 
 const ContactMeRight = () => {
   return (
