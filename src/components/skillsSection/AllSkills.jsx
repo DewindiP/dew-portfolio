@@ -16,10 +16,15 @@ import { BiLogoFlutter } from "react-icons/bi";
 import { IoLogoFirebase } from "react-icons/io5";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiTypescript, SiMysql, SiMongodb } from "react-icons/si";
-import { RiTailwindCssFill, RiTeamFill, RiUserCommunityFill } from "react-icons/ri";
+import {
+  RiTailwindCssFill,
+  RiTeamFill,
+  RiUserCommunityFill,
+} from "react-icons/ri";
 import { FaDartLang } from "react-icons/fa6";
-
 import SingleSkill from "./SingleSkill";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../framerMotion/variants";
 
 const skills = [
   { skill: "HTML", icon: FaHtml5 },
@@ -50,23 +55,44 @@ const softSkills = [
 const AllSkills = () => {
   return (
     <div className="w-full flex flex-col items-center space-y-16 px-4">
-      
       {/* Technical Skills Section */}
       <div className="w-full max-w-7xl">
         <div className="mb-6 flex items-center gap-4">
           <FaTools className="text-mutedGold text-4xl" />
-          <h2 className="text-4xl sm:text-5xl text-mutedGold">Technical Skills</h2>
+          <motion.h2
+            variants={fadeIn("right", 0.4)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0 }}
+            className="text-4xl sm:text-5xl text-mutedGold"
+          >
+            Technical Skills
+          </motion.h2>
         </div>
-        <p className="text-lg text-ivory mb-8">
+        <motion.p
+          variants={fadeIn("right", 0.4)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0 }}
+          className="text-lg text-ivory mb-8"
+        >
           These are the tools and technologies I use to build amazing projects.
-        </p>
+        </motion.p>
+
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
           {skills.map((item, index) => (
-            <SingleSkill
+            <motion.div
               key={index}
-              text={item.skill}
-              imgSvg={<item.icon className="w-14 h-14 text-gold" />}
-            />
+              variants={fadeIn("up", `0.${index}`)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: false, amount: 0 }}
+            >
+              <SingleSkill
+                text={item.skill}
+                imgSvg={<item.icon className="w-14 h-14 text-gold" />}
+              />
+            </motion.div>
           ))}
         </div>
       </div>
@@ -75,18 +101,41 @@ const AllSkills = () => {
       <div className="w-full max-w-4xl text-center">
         <div className="mb-6 flex items-center justify-center gap-4">
           <RiTeamFill className="text-mutedGold text-4xl" />
-          <h2 className="text-3xl sm:text-4xl text-mutedGold">Soft Skills</h2>
+          <motion.h2
+            variants={fadeIn("right", 0.4)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0 }}
+            className="text-3xl sm:text-4xl text-mutedGold"
+          >
+            Soft Skills
+          </motion.h2>
         </div>
-        <p className="text-lg text-ivory mb-6">
-          These are the interpersonal skills that help me collaborate and succeed in team environments.
-        </p>
+        <motion.p
+          variants={fadeIn("right", 0.4)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0 }}
+          className="text-lg text-ivory mb-6"
+        >
+          These are the interpersonal skills that help me collaborate and
+          succeed in team environments.
+        </motion.p>
+
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 justify-items-center">
           {softSkills.map((item, index) => (
-            <SingleSkill
+            <motion.div
               key={index}
-              text={item.skill}
-              imgSvg={<item.icon className="w-12 h-12 text-gold" />}
-            />
+              variants={fadeIn("up", `0.${index}`)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: false, amount: 0 }}
+            >
+              <SingleSkill
+                text={item.skill}
+                imgSvg={<item.icon className="w-12 h-12 text-gold" />}
+              />
+            </motion.div>
           ))}
         </div>
       </div>

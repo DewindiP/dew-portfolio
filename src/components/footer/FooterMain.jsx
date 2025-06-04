@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from 'react-router-dom';
 
 const links = [
-    { link: "About Me", section: "about" },
-    { link: "Skills", section: "skills" },
-    { link: "Projects", section: "projects" },
-    { link: "Certificates", section: "certificates" },
-    { link: "Contact", section: "contact" },
+    { link: "About Me", section: "/about" },
+    { link: "Skills", section: "/skills" },
+    { link: "Projects", section: "/projects" },
+    { link: "Certificates", section: "/certificates" },
+    { link: "Contact", section: "/contact" },
 ];
 
 const FooterMain = () => {
@@ -20,7 +20,7 @@ const FooterMain = () => {
                     return (
                       <li key={index}>
                         <a 
-                         href="#"
+                         href={`#${item.section}`}
                          className="hover:text-ivory transition-all duration-500 cursor-pointer">
                          {item.link}</a>
                       </li>

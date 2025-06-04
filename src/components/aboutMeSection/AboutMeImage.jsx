@@ -7,7 +7,7 @@ const AboutMeImage = () => {
         <img
           src="../images/uni.png"
           alt="Pramodi Dewindi"
-          className="max-h-[250px] sm:max-h-[300px] md:max-h-[350px] w-auto"
+          className="max-h-[500px] sm:max-h-[400px] md:max-h-[700px] w-auto"
         />
     </div>
   );
