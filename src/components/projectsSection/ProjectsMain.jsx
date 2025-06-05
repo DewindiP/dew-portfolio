@@ -12,7 +12,7 @@ const project = [
     technologies: " Flutter | Node.js | Express.js | MongoDB | AWS | Git",
     year: "Oct 2024",
     align: "right",
-    image: "./images/Seyoni.jpg",
+    image: "./public/images/Seyoni.jpg",
     // link: "#",
     githublink: "https://github.com/DewindiP/Seyoni",
   },
