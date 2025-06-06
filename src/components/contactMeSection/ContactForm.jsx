@@ -18,7 +18,7 @@ const ContactForm = () => {
             <textarea 
               type="text" 
               placeholder="Message" 
-              rows="9" 
+              rows="7" 
               cols="50" 
               className="rounded-lg p-2 bg-oliveGreen text-sageTintedOlive" required/>
             <button type="submmit" className="w-full border border-richMetallicGold rounded-lg text-softSage font-semibold text-xl p-2 hover:bg-warmOliveTint transition-all duration-500 cursor-pointer  hover:text-deepForestGreen hover:font-semibold">Send</button>
