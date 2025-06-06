@@ -20,7 +20,7 @@ const AboutMeText = () => {
       <div className="flex flex-col md:flex-row gap-6 w-full">
         {/* About Me Section */}
          <motion.div
-          variants={fadeIn("up", 0.1)}
+          variants={fadeIn("left", 0.1)}
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0.2 }}
@@ -43,7 +43,7 @@ const AboutMeText = () => {
 
         {/* Education Section */}
         <motion.div
-          variants={fadeIn("up", 0.1)}
+          variants={fadeIn("right", 0.1)}
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0.2 }}
@@ -68,7 +68,7 @@ const AboutMeText = () => {
 
         {/* Certifications Section */}
         <motion.div
-          variants={fadeIn("up", 0.1)}
+          variants={fadeIn("left", 0.1)}
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0.2 }}
