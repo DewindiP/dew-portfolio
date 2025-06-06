@@ -19,13 +19,7 @@ const AboutMeText = () => {
       {/* Responsive Columns */}
       <div className="flex flex-col md:flex-row gap-6 w-full">
         {/* About Me Section */}
-         <motion.div
-          variants={fadeIn("left", 0.4)}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: false, amount: 0 }}
-          className="bg-richBlackGreen p-4 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 text-ivory w-full md:w-1/3 mb-6 md:mb-0"
-        >
+        <div className="bg-richBlackGreen p-4 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 text-ivory w-full md:w-1/3 mb-6 md:mb-0">
           <p className="font-normal sm:text-base text-justify mb-2">
             Hi! I’m Pramodi Dewindi
             <br />
@@ -39,16 +33,10 @@ const AboutMeText = () => {
             <br />
             Let’s build something awesome together!
           </p>
-        </motion.div>
+        </div>
 
         {/* Education Section */}
-        <motion.div
-          variants={fadeIn("right", 0.4)}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: false, amount: 0 }}
-          className="bg-richBlackGreen p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 text-ivory w-full md:w-1/3 mb-6 md:mb-0"
-        >
+        <div className="bg-richBlackGreen p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 text-ivory w-full md:w-1/3 mb-6 md:mb-0">
           <p className="text-xl md:text-2xl text-mutedGold text-center mb-2">
             Education
           </p>
@@ -64,16 +52,10 @@ const AboutMeText = () => {
               <p className="text-softSage text-md">2022 - Present</p>
             </div>
           </div>
-        </motion.div>
+        </div>
 
         {/* Certifications Section */}
-        <motion.div
-          variants={fadeIn("left", 0.4)}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: false, amount: 0 }}
-          className="bg-richBlackGreen p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 text-ivory w-full md:w-1/3"
-        >
+        <div className="bg-richBlackGreen p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 text-ivory w-full md:w-1/3">
           <p className="text-xl md:text-2xl text-mutedGold text-center mb-2">
             Certifications
           </p>
@@ -91,7 +73,7 @@ const AboutMeText = () => {
               </button>
             </Link>
           </div>
-        </motion.div>
+        </div>
       </div>
 
       {/* Button */}
