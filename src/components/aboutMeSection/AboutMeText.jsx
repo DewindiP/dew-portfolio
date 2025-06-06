@@ -20,10 +20,10 @@ const AboutMeText = () => {
       <div className="flex flex-col md:flex-row gap-6 w-full">
         {/* About Me Section */}
          <motion.div
-          variants={fadeIn("left", 0.1)}
+          variants={fadeIn("left", 0.4)}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.2 }}
+          viewport={{ once: false, amount: 0 }}
           className="bg-richBlackGreen p-4 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 text-ivory w-full md:w-1/3 mb-6 md:mb-0"
         >
           <p className="font-normal sm:text-base text-justify mb-2">
@@ -43,10 +43,10 @@ const AboutMeText = () => {
 
         {/* Education Section */}
         <motion.div
-          variants={fadeIn("right", 0.1)}
+          variants={fadeIn("right", 0.4)}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.2 }}
+          viewport={{ once: false, amount: 0 }}
           className="bg-richBlackGreen p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 text-ivory w-full md:w-1/3 mb-6 md:mb-0"
         >
           <p className="text-xl md:text-2xl text-mutedGold text-center mb-2">
@@ -68,10 +68,10 @@ const AboutMeText = () => {
 
         {/* Certifications Section */}
         <motion.div
-          variants={fadeIn("left", 0.1)}
+          variants={fadeIn("left", 0.4)}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.2 }}
+          viewport={{ once: false, amount: 0 }}
           className="bg-richBlackGreen p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 text-ivory w-full md:w-1/3"
         >
           <p className="text-xl md:text-2xl text-mutedGold text-center mb-2">
