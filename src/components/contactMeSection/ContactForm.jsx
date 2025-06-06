@@ -5,8 +5,8 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const ContactForm = () => {
   return (
-    <div className="w-full px-2 sm:px-4 md:px-0 py-6 flex justify-center">
-        <form className="flex flex-col gap-4 w-full max-w-3xl p-2.5 ">
+    <div className="w-full px-2 sm:px-2 md:px-0 py-6 flex justify-center">
+        <form className="flex flex-col gap-4 w-full max-w-2xl p-2.5 ">
             <input 
              type="text" 
              placeholder="Your Name" 
