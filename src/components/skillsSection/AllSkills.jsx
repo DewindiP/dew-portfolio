@@ -56,8 +56,8 @@ const AllSkills = () => {
   return (
     <div className="w-full flex flex-col items-center space-y-16 px-4">
       {/* Technical Skills Section */}
-      <div className="w-full max-w-7xl">
-        <div className="mb-6 flex items-center gap-4">
+      <div className="w-full max-w-7xl text-center">
+        <div className="mb-6 flex items-center justify-center gap-4">
           <FaTools className="text-mutedGold text-4xl" />
           <motion.h2
             variants={fadeIn("right", 0.4)}
@@ -74,12 +74,12 @@ const AllSkills = () => {
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0 }}
-          className="text-lg text-ivory mb-8"
+          className="text-lg text-ivory mb-6"
         >
           These are the tools and technologies I use to build amazing projects.
         </motion.p>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-6 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-6">
           {skills.map((item, index) => (
             <motion.div
               key={index}
@@ -122,7 +122,7 @@ const AllSkills = () => {
           succeed in team environments.
         </motion.p>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 justify-items-center">
+        <div className="grid grid-cols-2 sm:grid-cols-2 gap-6 justify-items-center">
           {softSkills.map((item, index) => (
             <motion.div
               key={index}
