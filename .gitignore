@@ -24,7 +24,7 @@ dist-ssr
 *.sw?
 
 # Ignore all images inside public/images
-public/images/*
+# public/images/*
 
 # Allow a placeholder file (optional)
 !public/images/.gitkeep
