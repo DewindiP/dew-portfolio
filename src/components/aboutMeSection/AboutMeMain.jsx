@@ -11,7 +11,7 @@ const AboutMeMain = () => {
       className="flex md:flex-row sm:flex-col gap-8 px-4 max-w-[1200px] mx-auto mt-[0px] justify-between item-center"
     >
       <div
-        variants={fadeIn("up", 0.4)}
+        variants={fadeIn("left", 0.4)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}

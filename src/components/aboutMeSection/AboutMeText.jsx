@@ -20,7 +20,7 @@ const AboutMeText = () => {
       <div className="flex flex-col md:flex-row gap-6 w-full">
         {/* About Me Section */}
         <div className="bg-richBlackGreen p-4 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 text-ivory w-full md:w-1/3 mb-6 md:mb-0">
-          <p className="font-normal sm:text-base text-justify mb-2">
+          <p className="sm:text-base text-justify mb-2">
             Hi! I’m Pramodi Dewindi
             <br />
             A passionate Frontend Developer & UI/UX Enthusiast. I specialize in
@@ -43,7 +43,7 @@ const AboutMeText = () => {
           <div className="flex items-center justify-center md:justify-start">
             <FaUniversity className="text-lightAvacadoGreen text-3xl md:text-4xl mr-4" />
             <div>
-              <p className="text-md font-normal">
+              <p className="text-md ">
                 Institute of Technology, University of Moratuwa
               </p>
               <p className="text-softSage text-md">
@@ -60,7 +60,7 @@ const AboutMeText = () => {
             Certifications
           </p>
           <div className="flex items-center justify-center md:justify-start">
-            <p className="font-normal text-xs sm:text-base text-justify mb-2">
+            <p className="text-xs sm:text-base text-justify mb-2">
               Each certification marks a step in my journey of learning, growth,
               and commitment to excellence.
             </p>
