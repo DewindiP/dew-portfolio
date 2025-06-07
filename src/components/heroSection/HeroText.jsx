@@ -62,7 +62,7 @@ const HeroText = () => {
       </motion.p>
       <div className="w-full flex justify-start md:justify-start">
         <a
-          href="./images/files/Pramodi Dewindi PA.pdf"
+          href="/images/files/Pramodi Dewindi.pdf"
           download
           className="border border-richMetallicGold rounded-3xl py-2 px-6 text-lg mt-6 hover:bg-warmOliveTint transition-all duration-500 cursor-pointer text-softSage hover:text-deepForestGreen hover:font-semibold hidden md:inline-block"
         >
