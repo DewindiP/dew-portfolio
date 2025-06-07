@@ -63,7 +63,7 @@ const SingleProject = ({
           </a>
         </div>
         <div className="relative w-[400px] aspect-[16/9]  rounded-xl overflow-hidden border border-ivory">
-          <div className="absolute top-0 left-0 w-full h-full bg-paleOliveGreen opacity-50 transition-opacity duration-500 hover:opacity-0 hidden sm:block"></div>
+          <div className="absolute top-0 left-0 w-full h-full bg-paleOliveGreen opacity-50 transition-opacity duration-500 hover:opacity-0 hidden md:block"></div>
           <img
             src={image}
             alt="Project Image"
