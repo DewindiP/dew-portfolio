@@ -32,7 +32,7 @@ const SingleProject = ({
           </h2>
           <p className="text-sm text-justify text-ivory mt-2">{about}</p>
           <p
-            className={`text-sm flex gap-2 items-center text-ivory hover:text-richMetallicGold transition-all duration-500 sm:justify-self-center ${
+            className={`text-sm flex gap-2 items-center text-richMetallicGold hover:text-ivory transition-all duration-500 sm:justify-self-center ${
               align === "left" ? "md:justify-self-end" : "md:justify-self-start"
             }`}
           >
