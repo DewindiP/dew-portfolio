@@ -30,8 +30,8 @@ const project = [
   {
     name: "MUSIC PLAYER",
     about:
-      "A responsive movie app using TMDB API with features like search, filters, and detailed views.",
-    technologies: "React | Tailwind CSS | TMDB API | Git",
+      "Developed a simple music player with media controls and a clean, interactive UI for seamless playback.",
+    technologies: "HTML | CSS | JavaScript | Git",
     year: "Oct 2024",
     align: "right",
     image: "./images/music-player.png",
@@ -39,28 +39,35 @@ const project = [
     githublink: "https://github.com/DewindiP/Music-Player",
   },
   {
-    name: "HUNGRY CHEF",
-    year: "Oct 2023",
-    align: "left",
-    image: "./images/hungry-chef.png",
-    link: "https://dewindip.github.io/Hungry-Chef/",
-    githublink: "https://github.com/DewindiP/Hungry-Chef",
-  },
-  {
     name: "TO-DO LIST",
+    about:"A to-do list app for adding, editing, and organizing tasks.",
+    technologies: "HTML | CSS | JavaScript | Git",
     year: " Dec 2023",
-    align: "right",
+    align: "left",
     image: "/images/todo.png",
     link: "https://dewindip.github.io/To-Do-List/",
     githublink: "https://github.com/DewindiP/To-Do-List",
   },
   {
     name: "CALCULATOR",
+    about:"Developed a basic calculator that performs standard mathematical operations with can access history.",
+    technologies: "HTML | CSS | JavaScript | Git",
     year: "Nov 2023",
-    align: "left",
+    align: "right",
     image: "/images/cal.png",
     link: "https://dewindip.github.io/simple-calculator/",
     githublink: "https://github.com/DewindiP/simple-calculator",
+  },
+  {
+    name: "HUNGRY CHEF",
+    about:
+      "A food delivery app that allows users to order food from various restaurants, featuring a user-friendly interface.",
+    technologies: "HTML | CSS | JavaScript | Git",
+    year: "Oct 2023",
+    align: "left",
+    image: "./images/hungry-chef.png",
+    link: "https://dewindip.github.io/Hungry-Chef/",
+    githublink: "https://github.com/DewindiP/Hungry-Chef",
   },
 ];
 

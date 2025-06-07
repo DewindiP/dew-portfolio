@@ -64,7 +64,7 @@ const AboutMeText = () => {
             </p>
           </div>
           <div className="flex items-center justify-center md:justify-start">
-            <BiSolidCertification className="text-lightAvacadoGreen text-3xl md:text-4xl" />
+            <BiSolidCertification className="text-lightAvacadoGreen text-3xl md:text-4xl mr-1" />
             <Link to="/certifications">
               <button className="mt-2 border border-richMetallicGold rounded-3xl py-1 px-4 text-sm hover:bg-warmOliveTint transition-all duration-500 cursor-pointer text-softSage hover:text-deepForestGreen hover:font-semibold">
                 View All Certifications

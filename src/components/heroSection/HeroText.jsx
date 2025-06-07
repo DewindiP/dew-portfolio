@@ -60,11 +60,11 @@ const HeroText = () => {
         A Passionate Web Developer with a keen interest in <br />
         developing responsive websites and web applications.
       </motion.p>
-      <div className="w-full flex justify-start">
+      <div className="w-full flex justify-start md:justify-start">
         <a
           href="./images/files/Pramodi Dewindi PA.pdf"
           download
-          className="border border-richMetallicGold rounded-3xl py-2 px-6 text-lg mt-6 hover:bg-warmOliveTint transition-all duration-500 cursor-pointer text-softSage hover:text-deepForestGreen hover:font-semibold inline-block"
+          className="border border-richMetallicGold rounded-3xl py-2 px-6 text-lg mt-6 hover:bg-warmOliveTint transition-all duration-500 cursor-pointer text-softSage hover:text-deepForestGreen hover:font-semibold hidden md:inline-block"
         >
           Download CV
         </a>
