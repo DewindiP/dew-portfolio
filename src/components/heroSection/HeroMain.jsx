@@ -6,7 +6,7 @@ import HeroGradient from "./HeroGradient";
 const HeroMain = () => {
   return (
     <div className="pt-40 pb-8 ">
-      <div className="flex flex-col md:flex-row max-w-[1200px] mx-auto justify-center items-center relative px-4 text-center md:text-left">
+      <div className="flex md:flex-row sm:flex-col gap-8 px-4 max-w-[1200px] mx-auto mt-[0px] justify-between item-center">
         <HeroText />
         <Heropic />
       </div>
