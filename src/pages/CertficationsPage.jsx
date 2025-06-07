@@ -62,25 +62,25 @@ const certifications = [
     title: "Introduction to CSS",
     image: "/images/certificates/Introduction to CSS.jpeg",
     credentialUrl:
-      "https://api2.sololearn.com/v2/certificates/CC-0NFHD7VP/image/png?t=638580267024966890",
+      "https://www.sololearn.com/en/certificates/CC-0NFHD7VP",
   },
   {
     title: "Introduction to HTML",
     image: "./images/certificates/Introduction to HTML.jpeg",
     credentialUrl:
-      "https://api2.sololearn.com/v2/certificates/CC-JFKKQFIQ/image/png?t=638417169423801710",
+      "https://www.sololearn.com/en/certificates/CC-JFKKQFIQ",
   },
   {
     title: "Introduction to Python",
     image: "/images/certificates/Introduction to Python.jpeg",
     credentialUrl:
-      "https://api2.sololearn.com/v2/certificates/CC-CKKQN5ES/image/png?t=638405600767807670",
+      "https://www.sololearn.com/en/certificates/CC-CKKQN5ES",
   },
   {
     title: "Introdution to Java",
-    image: "/images/certificates/Introduction to Python.jpeg",
+    image: "/images/certificates/Introduction to Java.jpeg",
     credentialUrl:
-      "https://api2.sololearn.com/v2/certificates/CC-Z0DIBVA2/image/png?t=638423196350450530",
+      "https://www.sololearn.com/en/certificates/CC-Z0DIBVA2",
   },
   {
     title: " Introduction to Graphic Design; Basics of UI/UX",

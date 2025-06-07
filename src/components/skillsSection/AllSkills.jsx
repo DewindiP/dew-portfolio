@@ -64,7 +64,7 @@ const AllSkills = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0 }}
-            className="text-4xl sm:text-5xl text-mutedGold"
+            className="text-3xl sm:text-4xl text-mutedGold"
           >
             Technical Skills
           </motion.h2>
@@ -79,7 +79,7 @@ const AllSkills = () => {
           These are the tools and technologies I use to build amazing projects.
         </motion.p>
 
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+        <div className="grid grid-cols-4 sm:grid-cols-2 gap-6 justify-items-center">
           {skills.map((item, index) => (
             <motion.div
               key={index}
