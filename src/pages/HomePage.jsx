@@ -3,7 +3,7 @@ import HeroMain from '../components/heroSection/HeroMain'
 
 const HomePage = () => {
   return (
-    <div className="pt-[120px]">
+    <div className="pt-[80px]">
       <HeroMain />
     </div>
   );
