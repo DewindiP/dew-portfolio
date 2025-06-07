@@ -2,8 +2,6 @@ import React from "react";
 import { FaUniversity } from "react-icons/fa";
 import { BiSolidCertification } from "react-icons/bi";
 import { Link, useNavigate } from "react-router-dom";
-import { motion } from "framer-motion";
-import { fadeIn } from "../../framerMotion/variants";
 
 const AboutMeText = () => {
   const navigate = useNavigate();

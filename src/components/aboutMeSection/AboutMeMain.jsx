@@ -10,7 +10,7 @@ const AboutMeMain = () => {
       id="about"
       className="flex md:flex-row sm:flex-col gap-8 px-4 max-w-[1200px] mx-auto mt-[0px] justify-between item-center"
     >
-      <div
+      <motion.div
         variants={fadeIn("left", 0.4)}
         initial="hidden"
         whileInView="show"
@@ -18,13 +18,13 @@ const AboutMeMain = () => {
         className="flex-2 "
       >
         <AboutMeText />
-      </div>
-      <motion.div 
-      variants={fadeIn("left", 0.4)}
-              initial="hidden"
-              whileInView="show"
-              viewport={{ once: false, amount: 0 }}
-              className=" flex-2 flex justify-center items-center">
+      </motion.div>
+      <motion.div
+        variants={fadeIn("left", 0.4)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0 }}
+        className=" flex-2 flex justify-center items-center">
         <AboutMeImage />
       </motion.div>
     </div>
