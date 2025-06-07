@@ -79,7 +79,7 @@ const AllSkills = () => {
           These are the tools and technologies I use to build amazing projects.
         </motion.p>
 
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-6">
+        <div className="grid grid-cols-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-6">
           {skills.map((item, index) => (
             <motion.div
               key={index}
