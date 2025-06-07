@@ -15,9 +15,9 @@ const Heropic = () => {
       <img
         src="/images/myprofile.png"
         alt="Pramodi Dewindi"
-        className="max-h-[360px] sm:max-h-[250px]
-    md:max-h-[330px]     
-    lg:max-h-[360px]  w-auto"
+        className="max-h-[360px] sm:max-h-[200px]
+    md:max-h-[300px]     
+    lg:max-h-[330px]  w-auto"
       />
       <div className="absolute -z-10 flex justify-center items-center animate-pulse">
         <LiaCircleSolid className="md:h-[90%] sm:h-[120%] min-h-[500px] w-auto text-mutedGold blur-md animate-[spin_20s_linear_infinte]" />
