@@ -8,7 +8,7 @@ const ContactMeMain = () => {
   return (
     <div
       id="contact"
-      className="max-w-[1200px] mx-auto items-center justify-center mt-[0] px-4"
+      className="max-w-[1200px] mx-auto items-center justify-center mt-[0] px-2 lg:px-8 sm:px-4 py-16"
     >
       <motion.h2
         variants={fadeIn("down", 0.4)}

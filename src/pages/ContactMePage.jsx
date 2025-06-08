@@ -3,7 +3,7 @@ import ContactMeMain from '../components/contactMeSection/ContactMeMain'
 
 const ContactMePage = () => {
   return (
-    <div className="pt-[120px]">
+    <div className="pt-[80px]">
       <ContactMeMain />
     </div>
   );
