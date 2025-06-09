@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { fadeIn } from "../framerMotion/variants";
+import HeroGradient from '../components/heroSection/HeroGradient';
 
 const certifications = [
   {
@@ -92,7 +93,8 @@ const certifications = [
 
 function CertificationsPage() {
   return (
-    <div className="min-h-screen bg-richBlackGreen text-black pt-24 px-4 sm:px-6 md:px-8">
+    <div className="min-h-screen text-black pt-24 px-4 sm:px-6 md:px-8">
+      <HeroGradient />
       <Link to="/" className="text-forestGreen underline mb-4 inline-block">
         &larr;
       </Link>

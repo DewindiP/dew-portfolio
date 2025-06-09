@@ -5,7 +5,7 @@ const links = [
     { link: "About Me", section: "/about" },
     { link: "Skills", section: "/skills" },
     { link: "Projects", section: "/projects" },
-    { link: "Certificates", section: "/certificates" },
+    { link: "Certifications", section: "/certifications" },
     { link: "Contact", section: "/contact" },
 ];
 
@@ -19,10 +19,12 @@ const FooterMain = () => {
                 {links.map((item,index) =>{
                     return (
                       <li key={index}>
-                        <a 
-                         href={`#${item.section}`}
-                         className="hover:text-ivory transition-all duration-500 cursor-pointer">
-                         {item.link}</a>
+                        <Link
+                to={item.section}
+                className="hover:text-ivory transition-all duration-500 cursor-pointer"
+              >
+                {item.link}
+              </Link>
                       </li>
                     );
                 })}

@@ -5,7 +5,7 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const ContactMeLeft = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-full">
+    <div className="flex flex-col gap-8 w-full">
       <div>
         <motion.h2
           variants={fadeIn("right", 0.4)}

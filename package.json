@@ -11,6 +11,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "emailjs": "^4.0.3",
     "framer-motion": "^12.5.0",
     "motion": "^12.15.0",
     "react": "^19.0.0",
