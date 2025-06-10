@@ -23,7 +23,7 @@ const NavbarMain = () => {
         <div
           className={`${menuOpen ? "sm:block" : "sm:hidden"} sm:block lg:block`}
         >
-          <NavbarLinks />
+          <NavbarLinks onLinkClick={() => setMenuOpen(false)} />
         </div>
 
         <NavbarBtn />

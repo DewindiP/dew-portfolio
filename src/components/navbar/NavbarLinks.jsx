@@ -9,7 +9,7 @@ const links = [
   { label: "Contact", path: "/contact" }, 
 ];
 
-const NavbarLinks = () => {
+const NavbarLinks = ({ onLinkClick }) => {
   return (
     <ul className="flex gap-6 text-ivory font-semibold text-center lg:flex-row sm:flex-col lg:relative sm:absolute sm:top-[120%] left-[50%] -translate-x-[50%] lg:text-md sm:text-xl sm:bg-deepForestGreen/30 backdrop-blur-3xl lg:bg-deepForestGreen sm:w-full py-4">
       {links.map((link, index) => (
@@ -17,6 +17,7 @@ const NavbarLinks = () => {
           <RouterLink
             to={link.path}
             className="cursor-pointer text-ivory hover:text-mutedGold transition-all duration-500"
+            onClick={onLinkClick}
           >
             {link.label}
           </RouterLink>
