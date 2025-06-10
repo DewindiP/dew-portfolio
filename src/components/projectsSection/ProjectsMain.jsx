@@ -5,6 +5,17 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const project = [
+   {
+    name: "CINESCOPE",
+    about:
+      "A responsive movie app using TMDB API with features like search, filters, and detailed views.",
+    technologies: "React | Tailwind CSS | TMDB API | Git",
+    year: "APRIL 2025",
+    align: "left",
+    image: "./images/cinescope.png",
+    link: "https://cinescopemoviesex.netlify.app/",
+    githublink: "https://github.com/DewindiP/movie-explorer",
+  },
   {
     name: "SEYONI",
     about:
@@ -17,20 +28,9 @@ const project = [
     githublink: "https://github.com/DewindiP/Seyoni",
   },
   {
-    name: "CINESCOPE",
-    about:
-      "A responsive movie app using TMDB API with features like search, filters, and detailed views.",
-    technologies: "React | Tailwind CSS | TMDB API | Git",
-    year: "APRIL 2025",
-    align: "left",
-    image: "./images/cinescope.png",
-    link: "https://cinescopemoviesex.netlify.app/",
-    githublink: "https://github.com/DewindiP/movie-explorer",
-  },
-  {
     name: "MUSIC PLAYER",
     about:
-      "Developed a simple music player with media controls and a clean, interactive UI for seamless playback.",
+      "A simple music player with media controls and a clean, interactive UI for seamless playback.",
     technologies: "HTML | CSS | JavaScript | Git",
     year: "Oct 2024",
     align: "right",
@@ -50,7 +50,7 @@ const project = [
   },
   {
     name: "CALCULATOR",
-    about:"Developed a basic calculator that performs standard mathematical operations with can access history.",
+    about:"A basic calculator that performs standard mathematical operations with can access history.",
     technologies: "HTML | CSS | JavaScript | Git",
     year: "Nov 2023",
     align: "right",
