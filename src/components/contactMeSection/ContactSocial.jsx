@@ -13,8 +13,8 @@ const ContactSocial = () => {
                     whileInView="show"
                     viewport={{ once: false, amount: 0 }}>
     <div className="flex gap-4 ">
-        <SingleContactSocial link="#" Icon={FiGithub} />
-        <SingleContactSocial link="#" Icon={FaLinkedinIn} />
+        <SingleContactSocial link="https://github.com/DewindiP" Icon={FiGithub} />
+        <SingleContactSocial link="https://www.linkedin.com/in/DewindiP/" Icon={FaLinkedinIn} />
     </div>
     </motion.div>
   );
