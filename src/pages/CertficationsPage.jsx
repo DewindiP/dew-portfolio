@@ -5,6 +5,13 @@ import HeroGradient from '../components/heroSection/HeroGradient';
 
 const certifications = [
   {
+    title: "Responsive Web Design",
+    image:
+      "/images/certificates/www.freecodecamp.org_certification_DewP_responsive-web-design(iPad Pro).png",
+    credentialUrl:
+      "https://www.freecodecamp.org/certification/DewP/responsive-web-design",
+  },
+  {
     title: "Programming Foundations: Beyond the Fundamentals",
     image:
       "/images/certificates/Programming Foundations Beyond the Fundamentals.jpeg",
@@ -82,6 +89,12 @@ const certifications = [
     image: "/images/certificates/Introduction to Java.jpeg",
     credentialUrl:
       "https://www.sololearn.com/en/certificates/CC-Z0DIBVA2",
+  },
+  {
+  title: "SEO with AI",
+    image: "/images/certificates/SEO with AI.png",
+    credentialUrl:
+      "https://www.sololearn.com/certificates/CC-QTXKQN4P",
   },
   {
     title: " Introduction to Graphic Design; Basics of UI/UX",
