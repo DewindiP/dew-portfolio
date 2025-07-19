@@ -12,8 +12,9 @@ const HeroMain = () => {
       </div>
       <div className="flex justify-center mt-8 md:hidden">
         <a
-          href="/images/files/Pramodi Dewindi.pdf"
-          download
+          href="/images/files/Pamodi Dewindi CV Resume.pdf"
+          rel="noopener noreferrer"
+          target="_blank"
           className="border border-richMetallicGold rounded-3xl py-2 px-6 text-lg hover:bg-warmOliveTint transition-all duration-500 cursor-pointer text-softSage hover:text-deepForestGreen hover:font-semibold"
         >
           Download CV
