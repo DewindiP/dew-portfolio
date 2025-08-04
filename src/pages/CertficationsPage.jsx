@@ -52,6 +52,12 @@ const certifications = [
       "https://drive.google.com/file/d/11bOYtuLCjWlNKHt1KKpe0YXFdGTF3EJP/view?usp=sharing",
   },
   {
+    title: "Coding Foundations",
+    image: "public/images/certificates/Coding Foundations.jpg",
+    credentialUrl:
+      "https://www.sololearn.com/certificates/CC-VXNSQNFK",
+  },
+  {
     title: "Angular",
     image: "/images/certificates/Angular.jpg",
     credentialUrl: "https://www.sololearn.com/certificates/CC-CYDGHUH6",
