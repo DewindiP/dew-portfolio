@@ -53,7 +53,7 @@ const certifications = [
   },
   {
     title: "Coding Foundations",
-    image: "public/images/certificates/Coding Foundations.jpg",
+    image: "/images/certificates/Coding Foundations.jpg",
     credentialUrl:
       "https://www.sololearn.com/certificates/CC-VXNSQNFK",
   },
