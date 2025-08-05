@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const titles = [
-  "Front-End Web Developer",
-  "Mobile Developer",
-  "Software Engineer",
+  "Aspiring Front-End Web Developer",
+  "Aspiring Mobile Developer",
+  "Aspiring Software Engineer",
 ];
 
 const HeroText = () => {
