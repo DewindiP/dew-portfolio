@@ -103,6 +103,12 @@ const certifications = [
       "https://www.sololearn.com/certificates/CC-QTXKQN4P",
   },
   {
+    title: "Brainstorm with AI",
+    image: "/images/certificates/Brainstorm with AI.jpg",
+    credentialUrl:
+      "https://www.sololearn.com/certificates/CC-QIIZ4LL9",
+  },
+  {
     title: " Introduction to Graphic Design; Basics of UI/UX",
     image: "/images/certificates/introduction to graphic design.png",
     credentialUrl:
