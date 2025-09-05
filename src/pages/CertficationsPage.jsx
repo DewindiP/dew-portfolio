@@ -7,9 +7,9 @@ const certifications = [
   {
     title: "Responsive Web Design",
     image:
-      "/images/certificates/www.freecodecamp.org_certification_DewP_responsive-web-design(iPad Pro).png",
+      "/images/certificates/www.freecodecamp.org_certification_dewp_responsive-web-design(iPad Pro).png",
     credentialUrl:
-      "https://www.freecodecamp.org/certification/DewP/responsive-web-design",
+      "https://www.freecodecamp.org/certification/dewp/responsive-web-design",
   },
   {
     title: "Programming Foundations: Beyond the Fundamentals",
