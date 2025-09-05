@@ -46,6 +46,12 @@ const certifications = [
       "https://drive.google.com/file/d/1LucLHNC-uFCJiMZHc-7_sYRdV5r_kc8s/view?usp=sharing",
   },
   {
+    title: "Front-end for Beginners",
+    image: "/images/certificates/Front-end for Beginners.jpg",
+    credentialUrl:
+      "https://www.sololearn.com/certificates/CC-1OYQZBNO",
+  },
+  {
     title: "Front-End Web Development",
     image: "/images/certificates/Front-End  web development.png",
     credentialUrl:
