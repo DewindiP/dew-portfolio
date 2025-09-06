@@ -69,6 +69,11 @@ const certifications = [
     credentialUrl: "https://www.sololearn.com/certificates/CC-CYDGHUH6",
   },
   {
+    title: "Introduction to JavaScript",
+    image: "/images/certificates/Introduction to JavaScript.jpg",
+    credentialUrl: "https://www.sololearn.com/certificates/CC-TRSHYROU",
+  },
+  {
     title: "JavaScript Intermediate",
     image: "/images/certificates/javascript intermediate.jpg",
     credentialUrl: "https://www.sololearn.com/certificates/CC-RUG7VKIJ",
