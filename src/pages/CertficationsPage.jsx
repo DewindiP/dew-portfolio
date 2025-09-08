@@ -120,6 +120,12 @@ const certifications = [
       "https://www.sololearn.com/certificates/CC-QIIZ4LL9",
   },
   {
+    title: "Prompt Engineering",
+    image: "/images/certificates/Prompt Engineering.jpg",
+    credentialUrl:
+      "https://www.sololearn.com/certificates/CC-QAFDSDUM",
+  },
+  {
     title: " Introduction to Graphic Design; Basics of UI/UX",
     image: "/images/certificates/introduction to graphic design.png",
     credentialUrl:
