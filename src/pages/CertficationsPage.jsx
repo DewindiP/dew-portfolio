@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { fadeIn } from "../framerMotion/variants";
-import HeroGradient from '../components/heroSection/HeroGradient';
+import HeroGradient from "../components/heroSection/HeroGradient";
+import React, { useState } from "react";
 
 const certifications = [
   {
@@ -10,141 +11,178 @@ const certifications = [
       "/images/certificates/www.freecodecamp.org_certification_dewp_responsive-web-design(iPad Pro).png",
     credentialUrl:
       "https://www.freecodecamp.org/certification/dewp/responsive-web-design",
+    category: "Web Development",
   },
   {
     title: "From Relational Model (SQL) to MongoDB's Document Model",
     image:
       "/images/certificates/from-relational-model-sql-to-mongodb-s-document-mod.png",
     credentialUrl:
-      "https://ti-user-certificates.s3.amazonaws.com/ae62dcd7-abdc-4e90-a570-83eccba49043/ff42fb6a-7ae8-49fe-8842-91c353151be8-pramodi-dewindi-ff523b56-b657-4b93-8cdf-f0fbde200702-certificate.pdf",
+      "https://ti-user-certificates.s3.amazonaws.com/...",
+    category: "Database Skills",
   },
   {
     title: "Programming Foundations: Beyond the Fundamentals",
     image:
       "/images/certificates/Programming Foundations Beyond the Fundamentals.jpeg",
     credentialUrl:
-      "https://www.linkedin.com/learning/certificates/c66122169b28610aab935dccc4e77e08966b920b6037946bdd5e28787849e35f",
+      "https://www.linkedin.com/learning/certificates/...",
+    category: "Programming",
   },
   {
-    title:
-      "Career Essentials in Software Development by Microsoft and LinkedIn",
+    title: "Career Essentials in Software Development by Microsoft and LinkedIn",
     image:
       "/images/certificates/Career Essentials in Software Development by Microsoft and LinkedIn.jpeg",
     credentialUrl:
-      "https://www.linkedin.com/learning/certificates/7293ae43a8f8cccc418c623dbb80ae8a5bb915a5dbe14b75f896cde748b4510d",
+      "https://www.linkedin.com/learning/certificates/...",
+    category: "Programming",
   },
   {
     title: "Introduction to Career Skills in Software Development",
     image:
       "/images/certificates/Introduction to Career Skills in Software Development.jpeg",
     credentialUrl:
-      "https://www.linkedin.com/learning/certificates/0d3f2dc715477dcdcb4d4838309b4407cd1ea09e81ab2d6d3278155583cc6586?trk=share_certificate",
+      "https://www.linkedin.com/learning/certificates/...",
+    category: "Programming",
   },
   {
     title: "Programming Foundations: Fundamentals",
     image: "/images/certificates/Programming Foundations Fundamentals.jpeg",
     credentialUrl:
-      "https://www.linkedin.com/learning/certificates/f1f09f00d618480be60b4eeb914c6f7b75aaa25b2f5400f68ec0e0cd36b38813",
+      "https://www.linkedin.com/learning/certificates/...",
+    category: "Programming",
   },
   {
     title: "Web Design for Beginners",
     image: "/images/certificates/web design for beginners.png",
     credentialUrl:
-      "https://drive.google.com/file/d/1LucLHNC-uFCJiMZHc-7_sYRdV5r_kc8s/view?usp=sharing",
+      "https://drive.google.com/file/d/...",
+    category: "Web Development",
   },
   {
     title: "Front-end for Beginners",
     image: "/images/certificates/Front-end for Beginners.jpg",
     credentialUrl:
-      "https://www.sololearn.com/certificates/CC-1OYQZBNO",
+      "https://www.sololearn.com/certificates/...",
+    category: "Web Development",
   },
   {
     title: "Front-End Web Development",
     image: "/images/certificates/Front-End  web development.png",
     credentialUrl:
-      "https://drive.google.com/file/d/11bOYtuLCjWlNKHt1KKpe0YXFdGTF3EJP/view?usp=sharing",
+      "https://drive.google.com/file/d/...",
+    category: "Web Development",
   },
   {
     title: "Coding Foundations",
     image: "/images/certificates/Coding Foundations.jpg",
     credentialUrl:
-      "https://www.sololearn.com/certificates/CC-VXNSQNFK",
+      "https://www.sololearn.com/certificates/...",
+    category: "Programming",
   },
   {
     title: "Angular",
     image: "/images/certificates/Angular.jpg",
-    credentialUrl: "https://www.sololearn.com/certificates/CC-CYDGHUH6",
+    credentialUrl: "https://www.sololearn.com/certificates/...",
+    category: "Web Development",
   },
   {
     title: "Introduction to JavaScript",
     image: "/images/certificates/Introduction to JavaScript.jpg",
-    credentialUrl: "https://www.sololearn.com/certificates/CC-TRSHYROU",
+    credentialUrl: "https://www.sololearn.com/certificates/...",
+    category: "Web Development",
   },
   {
     title: "JavaScript Intermediate",
     image: "/images/certificates/javascript intermediate.jpg",
-    credentialUrl: "https://www.sololearn.com/certificates/CC-RUG7VKIJ",
+    credentialUrl: "https://www.sololearn.com/certificates/...",
+    category: "Web Development",
   },
   {
     title: "Web Development",
     image: "/images/certificates/web development.jpg",
-    credentialUrl: "https://www.sololearn.com/certificates/CC-EYFXM0QT",
+    credentialUrl: "https://www.sololearn.com/certificates/...",
+    category: "Web Development",
   },
   {
     title: "Introduction to CSS",
     image: "/images/certificates/Introduction to CSS.jpeg",
     credentialUrl:
-      "https://www.sololearn.com/en/certificates/CC-0NFHD7VP",
+      "https://www.sololearn.com/en/certificates/...",
+    category: "Web Development",
   },
   {
     title: "Introduction to HTML",
     image: "./images/certificates/Introduction to HTML.jpeg",
     credentialUrl:
-      "https://www.sololearn.com/en/certificates/CC-JFKKQFIQ",
+      "https://www.sololearn.com/en/certificates/...",
+    category: "Web Development",
   },
   {
     title: "Introduction to Python",
     image: "/images/certificates/Introduction to Python.jpeg",
     credentialUrl:
-      "https://www.sololearn.com/en/certificates/CC-CKKQN5ES",
+      "https://www.sololearn.com/en/certificates/...",
+    category: "Programming",
   },
   {
-    title: "Introdution to Java",
+    title: "Introduction to Java",
     image: "/images/certificates/Introduction to Java.jpeg",
     credentialUrl:
-      "https://www.sololearn.com/en/certificates/CC-Z0DIBVA2",
+      "https://www.sololearn.com/en/certificates/...",
+    category: "Programming",
   },
   {
-  title: "SEO with AI",
+    title: "SEO with AI",
     image: "/images/certificates/SEO with AI.png",
     credentialUrl:
-      "https://www.sololearn.com/certificates/CC-QTXKQN4P",
+      "https://www.sololearn.com/certificates/...",
+    category: "AI Skills",
   },
   {
     title: "Brainstorm with AI",
     image: "/images/certificates/Brainstorm with AI.jpg",
     credentialUrl:
-      "https://www.sololearn.com/certificates/CC-QIIZ4LL9",
+      "https://www.sololearn.com/certificates/...",
+    category: "AI Skills",
   },
   {
     title: "Prompt Engineering",
     image: "/images/certificates/Prompt Engineering.jpg",
     credentialUrl:
-      "https://www.sololearn.com/certificates/CC-QAFDSDUM",
+      "https://www.sololearn.com/certificates/...",
+    category: "AI Skills",
   },
   {
-    title: " Introduction to Graphic Design; Basics of UI/UX",
+    title: "Introduction to Graphic Design; Basics of UI/UX",
     image: "/images/certificates/introduction to graphic design.png",
     credentialUrl:
-      "https://certificates.simplicdn.net/share/7888463_78834731739209338406.pdf",
+      "https://certificates.simplicdn.net/share/...",
+    category: "UI/UX Design",
   },
 ];
 
 function CertificationsPage() {
+  const [selectedCategory, setSelectedCategory] = useState("All");
+
+  const categories = [
+    "All",
+    "Web Development",
+    "Database Skills",
+    "Programming",
+    "AI Skills",
+    "UI/UX Design",
+  ];
+
+  const filteredCertifications =
+    selectedCategory === "All"
+      ? certifications
+      : certifications.filter((cert) => cert.category === selectedCategory);
+
   return (
     <div className="min-h-screen text-black pt-24 px-4 sm:px-6 md:px-8">
       <HeroGradient />
-      <Link to="/" className="text-forestGreen underline mb-4 inline-block">
+      <Link to="/" className=" underline mb-4 inline-block">
         &larr;
       </Link>
       <motion.h1
@@ -157,8 +195,26 @@ function CertificationsPage() {
         My Certifications
       </motion.h1>
 
+      {/* Filter Buttons */}
+      <div className="flex gap-4 mb-6">
+        {categories.map((category) => (
+          <button
+            key={category}
+            onClick={() => setSelectedCategory(category)}
+            className={`px-4 py-2 rounded-lg border ${
+              selectedCategory === category
+                ? "bg-richMetallicGold text-ivory"
+                : "bg-ivory text-richMetallicGold hover:bg-deepForestGreen hover:text-ivory"
+            } transition`}
+          >
+            {category}
+          </button>
+        ))}
+      </div>
+
+      {/* Filtered Certifications */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8 max-w-6xl mx-auto">
-        {certifications.map((cert, idx) => (
+        {filteredCertifications.map((cert, idx) => (
           <motion.div
             key={idx}
             variants={fadeIn("up", idx * 0.1)}
