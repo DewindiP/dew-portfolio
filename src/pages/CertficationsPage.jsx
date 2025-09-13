@@ -12,6 +12,13 @@ const certifications = [
       "https://www.freecodecamp.org/certification/dewp/responsive-web-design",
   },
   {
+    title: "From Relational Model (SQL) to MongoDB's Document Model",
+    image:
+      "public/images/certificates/from-relational-model-sql-to-mongodb-s-document-mod.png",
+    credentialUrl:
+      "https://ti-user-certificates.s3.amazonaws.com/ae62dcd7-abdc-4e90-a570-83eccba49043/ff42fb6a-7ae8-49fe-8842-91c353151be8-pramodi-dewindi-ff523b56-b657-4b93-8cdf-f0fbde200702-certificate.pdf",
+  },
+  {
     title: "Programming Foundations: Beyond the Fundamentals",
     image:
       "/images/certificates/Programming Foundations Beyond the Fundamentals.jpeg",
