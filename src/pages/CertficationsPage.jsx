@@ -196,21 +196,21 @@ function CertificationsPage() {
       </motion.h1>
 
       {/* Filter Buttons */}
-      <div className="flex gap-4 mb-6">
-        {categories.map((category) => (
-          <button
-            key={category}
-            onClick={() => setSelectedCategory(category)}
-            className={`px-4 py-2 rounded-lg border ${
-              selectedCategory === category
-                ? "bg-richMetallicGold text-ivory"
-                : "bg-ivory text-richMetallicGold hover:bg-deepForestGreen hover:text-ivory"
-            } transition`}
-          >
-            {category}
-          </button>
-        ))}
-      </div>
+      <div className="flex flex-wrap gap-4 mb-6 justify-center">
+  {categories.map((category) => (
+    <button
+      key={category}
+      onClick={() => setSelectedCategory(category)}
+      className={`px-4 py-2 rounded-lg border ${
+        selectedCategory === category
+          ? "bg-richMetallicGold text-ivory"
+          : "bg-ivory text-richMetallicGold hover:bg-deepForestGreen hover:text-ivory"
+      } transition text-sm sm:text-base`}
+    >
+      {category}
+    </button>
+  ))}
+</div>
 
       {/* Filtered Certifications */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8 max-w-6xl mx-auto">
