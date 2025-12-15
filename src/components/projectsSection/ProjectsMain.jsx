@@ -5,6 +5,17 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const project = [
+  {
+    name: "CINESCOPE",
+    about:
+      "A responsive movie app using TMDB API with features like search, filters, and detailed views.",
+    technologies: "React | Tailwind CSS | TMDB API | Git",
+    year: "APRIL 2025",
+    align: "right",
+    image: "./images/MemoNest.png",
+    link: "",
+    githublink: "https://github.com/DewindiP/mern-memonest",
+  },
    {
     name: "CINESCOPE",
     about:
